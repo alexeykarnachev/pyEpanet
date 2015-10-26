@@ -13,6 +13,8 @@ from pandas import DataFrame
 from epanettools import epanet2 as et
 from pyEpanet.utils import find_edges, set_middle_node
 
+__author__ = 'Alexey Karnachev'
+
 
 def run_hydraulic_simulation(inp_file, nodes_parameters=None, links_parameters=None):
     """

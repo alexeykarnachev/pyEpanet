@@ -4,6 +4,8 @@ import networkx as nx
 Common graph processing routines.
 """
 
+__author__ = 'Alexey Karnachev'
+
 
 def find_nodes(g, comparison_func):
     """
